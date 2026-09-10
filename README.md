@@ -1,5 +1,3 @@
-# Matheus Mello
-
 Software developer focused on backend systems, AI applications and Cybersecurity
 
 I work mainly with Java, Spring, Python, AI-Agents, and cloud-based tools. Currently exploring applied AI, RAG pipelines, agents, and cybersecurity fundamentals.
