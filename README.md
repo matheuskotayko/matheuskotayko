@@ -1,23 +1,20 @@
-Software developer focused on backend systems, AI applications and Cybersecurity
+Backend-focused software developer building AI-powered applications and security-conscious systems.
 
-I work mainly with Java, Spring, Python, AI-Agents, and cloud-based tools. Currently exploring applied AI, RAG pipelines, agents, and cybersecurity fundamentals.
+I work primarily with Java, Spring Boot, Python, PostgreSQL, and cloud-native tools. My current interests are applied AI, RAG pipelines, agentic workflows, backend architecture, and cybersecurity fundamentals.
 
 ## Current Focus
 
-- Building backend applications with Java and Spring
-- Working as Java Fullstack Software Developer 
-- Studying applied AI, LangChain, LlamaIndex, and RAG architectures
-- Improving software design, cybersecurity fundamentals, and cloud deployment practices
+- Leading technical decisions for an internal agricultural operations platform
+- Exploring AI agents, RAG architectures, and LLM integration patterns
+- Strengthening secure software design, cloud deployment, and cybersecurity practices
 
-## Tech Stack
+## Core Stack
 
-**Backend:** Java, Spring, Node.js, Python  
-**Frontend:** React, TypeScript, JavaScript  
-**Game/VR:** C#, C++ Unity, Unreal  
-**AI:** LangChain, LlamaIndex, Hugging Face, RAG, AI Agents  
-**Cloud & DevOps:** Docker, PostgreSQL, AWS, GCP, Linux, Git
+**Backend:** Java, Spring Boot, Python, Node.js  
+**AI:** RAG, AI Agents, LangChain, LlamaIndex, Harness  
+**Cloud & DevOps:** Docker, Kubernetes, AWS, GCP, Linux, MinIO  
 
-[![My Skills](https://skillicons.dev/icons?i=java,spring,react,angular,cs,unity,nodejs,python,fastapi,ts,js,docker,postgres,aws,gcp,linux,git,grafana,prometheus)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=java,spring,python,nodejs,docker,kubernetes,postgres,aws,gcp,linux,git,grafana,prometheus)](https://skillicons.dev)
 
 
 ## Connect
