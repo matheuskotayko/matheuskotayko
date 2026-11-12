@@ -16,6 +16,12 @@ I build backends that put LLMs into real products without losing sight of securi
 - Exploring AI agents, RAG architectures, and LLM integration patterns
 - Strengthening secure software design, cloud deployment, and cybersecurity practices
 
+## Activity
+
+<img src="assets/activity.svg" alt="GitHub activity over the last 12 months" width="100%">
+
+*Generated daily from my GitHub contribution calendar.*
+
 ## Projects
 
 | | Project | What it does | Stack |
