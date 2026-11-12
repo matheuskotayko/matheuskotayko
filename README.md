@@ -10,7 +10,7 @@
 
 I'm a backend developer building AI-powered systems, with one rule I don't bend: **every input is hostile until proven otherwise.** An LLM feature that trusts its prompts, leaks its context or can't be audited isn't finished — it's an attack surface.
 
-At **Auster Tecnologia** I lead technical decisions on agricultural software: an ERP with AI agents and a remote-sensing ML pipeline, where Java, Spring Boot and PostgreSQL carry the core and Python drives the AI side: RAG pipelines, agentic workflows and LLM integrations. I'm studying Internet Systems at UFSM in Santa Maria, and on my own time I go deeper into cloud deployment and cybersecurity fundamentals.
+At **Auster Tecnologia** I lead technical decisions on agricultural software. Java, Spring Boot and PostgreSQL carry an ERP that connects field service prescriptions, finance and HR with AI agents, while Python drives the machine learning side: crop classification from Sentinel-2 imagery and geoprocessing pipelines for precision agriculture. I'm studying Internet Systems at UFSM in Santa Maria, and on my own time I go deeper into cloud deployment and cybersecurity fundamentals.
 
 **Current focus**
 
