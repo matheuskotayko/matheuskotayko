@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="96" viewBox="0 0 1200 96" role="img" aria-label="Chapter 1: Origin"><title>Chapter 1: Origin</title><defs>
+<filter id="brush" x="-10%" y="-30%" width="120%" height="160%">
+  <feTurbulence type="fractalNoise" baseFrequency=".035 .9" numOctaves="3" seed="7" result="n"/>
+  <feDisplacementMap in="SourceGraphic" in2="n" scale="14" xChannelSelector="R" yChannelSelector="G"/>
+</filter>
+<filter id="rough" x="-5%" y="-5%" width="110%" height="110%">
+  <feTurbulence type="fractalNoise" baseFrequency=".8" numOctaves="2" seed="3" result="n"/>
+  <feDisplacementMap in="SourceGraphic" in2="n" scale="3"/>
+</filter>
+<filter id="wash" x="-20%" y="-20%" width="140%" height="140%">
+  <feTurbulence type="fractalNoise" baseFrequency=".012 .05" numOctaves="4" seed="11" result="n"/>
+  <feDisplacementMap in="SourceGraphic" in2="n" scale="40"/>
+  <feGaussianBlur stdDeviation="1.2"/>
+</filter>
+<filter id="grain">
+  <feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="2" seed="5"/>
+  <feColorMatrix values="0 0 0 0 .6  0 0 0 0 .75  0 0 0 0 1  0 0 0 .07 0"/>
+</filter>
+<radialGradient id="light" cx=".18" cy=".05" r=".9">
+  <stop offset="0" stop-color="#9cc4ff" stop-opacity=".55"/>
+  <stop offset=".25" stop-color="#2f6fd6" stop-opacity=".28"/>
+  <stop offset=".6" stop-color="#2f6fd6" stop-opacity="0"/>
+</radialGradient>
+<linearGradient id="slash" x1="0" y1="0" x2="1" y2="0">
+  <stop offset="0" stop-color="#e8f0ff" stop-opacity="0"/>
+  <stop offset=".35" stop-color="#e8f0ff" stop-opacity=".95"/>
+  <stop offset="1" stop-color="#9cc4ff" stop-opacity=".15"/>
+</linearGradient>
+<linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
+  <stop offset="0" stop-color="#2f6fd6"/>
+  <stop offset="1" stop-color="#2f6fd6" stop-opacity="0"/>
+</linearGradient>
+</defs><rect width="1200" height="96" fill="#03070f"/><rect width="1200" height="96" fill="url(#light)"/><text x="40" y="74" font-family="'Noto Serif CJK JP','Yu Mincho','Hiragino Mincho ProN',Georgia,'Times New Roman',serif" font-weight="900" font-size="54" fill="#2f6fd6" fill-opacity=".9" filter="url(#brush)">I</text><text x="150" y="44" font-family="SFMono-Regular,Consolas,'Liberation Mono',monospace" font-size="12" letter-spacing="4" fill="#9cc4ff" fill-opacity=".6">CHAPTER 01</text><text x="148" y="78" font-family="'Noto Serif CJK JP','Yu Mincho','Hiragino Mincho ProN',Georgia,'Times New Roman',serif" font-weight="900" font-size="32" letter-spacing="5" fill="#e8f0ff" filter="url(#rough)">ORIGIN</text><path d="M150,88 C400,82 800,86 1180,80 L1180,82 C800,90 400,90 120,92 Z" fill="url(#fade)" filter="url(#brush)"/><circle cx="938" cy="61" r="1.4" fill="#9cc4ff" fill-opacity="0.45"/><circle cx="1039" cy="37" r="1.3" fill="#9cc4ff" fill-opacity="0.77"/><circle cx="926" cy="12" r="1.4" fill="#9cc4ff" fill-opacity="0.56"/><circle cx="1113" cy="10" r="1.0" fill="#9cc4ff" fill-opacity="0.73"/><circle cx="964" cy="67" r="1.5" fill="#9cc4ff" fill-opacity="0.32"/><circle cx="907" cy="42" r="1.5" fill="#9cc4ff" fill-opacity="0.53"/><circle cx="961" cy="35" r="0.6" fill="#9cc4ff" fill-opacity="0.43"/><circle cx="1023" cy="40" r="0.8" fill="#9cc4ff" fill-opacity="0.44"/><circle cx="961" cy="38" r="0.9" fill="#9cc4ff" fill-opacity="0.31"/><circle cx="1135" cy="43" r="1.2" fill="#9cc4ff" fill-opacity="0.41"/><circle cx="1178" cy="62" r="0.7" fill="#9cc4ff" fill-opacity="0.50"/><circle cx="1102" cy="53" r="1.5" fill="#9cc4ff" fill-opacity="0.55"/><rect width="1200" height="96" filter="url(#grain)"/></svg>
