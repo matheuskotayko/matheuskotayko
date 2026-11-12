@@ -10,11 +10,11 @@
 
 I'm a backend developer building AI-powered systems, with one rule I don't bend: **every input is hostile until proven otherwise.** An LLM feature that trusts its prompts, leaks its context or can't be audited isn't finished — it's an attack surface.
 
-Today I lead technical decisions for an internal agricultural operations platform, where Java, Spring Boot and PostgreSQL carry the core and Python drives the AI side: RAG pipelines, agentic workflows and LLM integrations. I'm studying Internet Systems at UFSM in Santa Maria, and on my own time I go deeper into cloud deployment and cybersecurity fundamentals.
+At **Auster Tecnologia** I lead technical decisions on agricultural software: an ERP with AI agents and a remote-sensing ML pipeline, where Java, Spring Boot and PostgreSQL carry the core and Python drives the AI side: RAG pipelines, agentic workflows and LLM integrations. I'm studying Internet Systems at UFSM in Santa Maria, and on my own time I go deeper into cloud deployment and cybersecurity fundamentals.
 
 **Current focus**
 
-- Leading technical decisions for an internal agricultural operations platform
+- Leading technical decisions at Auster Tecnologia: agricultural ERP with AI agents and crop ML pipelines
 - Exploring AI agents, RAG architectures, and LLM integration patterns
 - Strengthening secure software design, cloud deployment, and cybersecurity practices
 
@@ -28,7 +28,8 @@ Today I lead technical decisions for an internal agricultural operations platfor
 
 | | Project | What it does | Stack |
 |:-:|---|---|---|
-| ◆ | **Agricultural operations platform** | Internal platform for agricultural operations. I lead its technical decisions, from architecture and data model to delivery | Java · Spring Boot · PostgreSQL |
+| ◆ | **Agricultural ERP** · Auster Tecnologia | ERP that ties agricultural service prescriptions, finance and HR into one system, with AI agents built into the workflows | Java · Spring Boot · PostgreSQL · AI Agents |
+| ◆ | **Crop Vigor & Classification ML** · Auster Tecnologia | Python foundation for ML on historical crop vigor. Random Forest classifier over NDVI time series and Sentinel-2 multispectral bands that identifies crops on any date and region, inside geoprocessing pipelines for precision agriculture | Python · Random Forest · Sentinel-2 · NDVI · Geoprocessing |
 | ◐ | [**Gestão de Riscos UFSM**](https://github.com/matheuskotayko/gestao-riscos-ufsm) | Institutional risk management for UFSM: 5×5 risk matrix with inherent and residual levels, action plans with history, heat map per unit, Excel/PDF reports and sector-based access control | Django REST Framework · React · PostgreSQL · Docker Compose |
 | ◆ | **UniBot** · [public version](https://github.com/matheuskotayko/unibot) | Virtual assistant for the UFSM portal: 259 intents that centralize official answers across departments, route users to the right pages and recover with fallback flows | Dialogflow ES/CX · Gemini · Node.js webhooks |
 
