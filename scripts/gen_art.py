@@ -95,12 +95,12 @@ def banner():
           f'<text x="68" y="162" font-family="{SERIF}" font-weight="900" font-size="78" letter-spacing="6" '
           f'fill="{PAPER}" filter="url(#rough)">MATHEUS</text>'
           f'<text x="70" y="214" font-family="{SERIF}" font-weight="400" font-size="34" letter-spacing="18" '
-          f'fill="{GLOW}" fill-opacity=".85" filter="url(#rough)">KOTAYKO</text>')
+          f'fill="{GLOW}" fill-opacity=".85" filter="url(#rough)">FLECK</text>')
     b += (f'<rect x="70" y="236" width="300" height="2" fill="url(#fade)"/>'
           f'<text x="70" y="262" font-family="{MONO}" font-size="14" letter-spacing="2" fill="{GLOW}" fill-opacity=".75">'
           f'BACKEND · AI SYSTEMS · SECURITY</text>')
     b += f'<rect x="0" y="{H - 3}" width="{W}" height="3" fill="url(#fade)"/>'
-    return svg(W, H, b, "Matheus Kotayko — backend, AI systems and security. Ink-wash mountains lit in blue, a brush slash and an ensō circle.")
+    return svg(W, H, b, "Matheus Fleck — backend, AI systems and security. Ink-wash mountains lit in blue, a brush slash and an ensō circle.")
 
 
 def section(n, numeral, title):

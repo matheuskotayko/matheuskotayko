@@ -1,4 +1,4 @@
-<p align="center"><img src="assets/banner.svg" alt="Matheus Kotayko — backend, AI systems and security. Blue ink-wash mountains, a brush slash and an ensō circle." width="100%"></p>
+<p align="center"><img src="assets/banner.svg" alt="Matheus Fleck — backend, AI systems and security. Blue ink-wash mountains, a brush slash and an ensō circle." width="100%"></p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/matheusgmello/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-matheusgmello-111111?style=flat-square&logo=linkedin&logoColor=white"></a>
