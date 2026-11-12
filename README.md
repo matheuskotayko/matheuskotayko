@@ -8,7 +8,9 @@
 
 <img src="assets/sec1.svg" alt="Chapter 1: Origin" width="100%">
 
-I build backends that put LLMs into real products without losing sight of security. Java and Spring Boot are my daily tools, Python is where I prototype RAG pipelines and agents, and PostgreSQL holds it all together.
+I'm a backend developer building AI-powered systems, with one rule I don't bend: **every input is hostile until proven otherwise.** An LLM feature that trusts its prompts, leaks its context or can't be audited isn't finished — it's an attack surface.
+
+Today I lead technical decisions for an internal agricultural operations platform, where Java, Spring Boot and PostgreSQL carry the core and Python drives the AI side: RAG pipelines, agentic workflows and LLM integrations. I'm studying Internet Systems at UFSM in Santa Maria, and on my own time I go deeper into cloud deployment and cybersecurity fundamentals.
 
 **Current focus**
 
