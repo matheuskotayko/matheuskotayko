@@ -103,25 +103,26 @@ def banner():
     return svg(W, H, b, "Matheus Fleck — backend, AI systems and security. Ink-wash mountains lit in blue, a brush slash and an ensō circle.")
 
 
-def section(n, numeral, title):
-    W, H, rng = 1200, 96, random.Random(n)
+def section(n, title):
+    W, H, rng = 1200, 56, random.Random(n)
     b = (f'<rect width="{W}" height="{H}" fill="url(#light)"/>'
-         f'<text x="40" y="74" font-family="{SERIF}" font-weight="900" font-size="54" fill="{BLUE}" '
-         f'fill-opacity=".9" filter="url(#brush)">{numeral}</text>'
-         f'<text x="150" y="44" font-family="{MONO}" font-size="12" letter-spacing="4" fill="{GLOW}" fill-opacity=".6">'
-         f'CHAPTER {n:02d}</text>'
-         f'<text x="148" y="78" font-family="{SERIF}" font-weight="900" font-size="32" letter-spacing="5" '
+         f'<text x="32" y="34" font-family="{MONO}" font-size="13" letter-spacing="3" fill="{GLOW}" fill-opacity=".7">'
+         f'CH.{n:02d}</text>'
+         f'<text x="108" y="38" font-family="{SERIF}" font-weight="900" font-size="26" letter-spacing="5" '
          f'fill="{PAPER}" filter="url(#rough)">{title.upper()}</text>'
-         f'<path d="M150,88 C400,82 800,86 1180,80 L1180,82 C800,90 400,90 120,92 Z" fill="url(#fade)" filter="url(#brush)"/>')
-    b += splatter(rng, 12, 900, 1180, 10, 70, GLOW, 1.6)
+         f'<path d="M360,29 C640,25 860,28 1060,26 L1060,29 C860,33 640,33 420,32 Z" fill="url(#fade)" filter="url(#brush)"/>')
+    # Four brush slashes closing the strip.
+    b += "".join(f'<path d="M{1080 + k * 22},44 L{1098 + k * 22},12" stroke="{GLOW}" stroke-width="4" '
+                 f'stroke-linecap="round" stroke-opacity="{.9 - k * .2:.1f}" filter="url(#rough)"/>' for k in range(4))
+    b += splatter(rng, 6, 860, 1060, 8, 48, GLOW, 1.4)
     return svg(W, H, b, f"Chapter {n}: {title}")
 
 
-SECTIONS = [("I", "Origin"), ("II", "Activity"), ("III", "Projects"), ("IV", "Arsenal")]
+SECTIONS = ["Origin", "Activity", "Projects", "Arsenal"]
 
 if __name__ == "__main__":
     OUT.mkdir(exist_ok=True)
     (OUT / "banner.svg").write_text(banner(), encoding="utf-8")
-    for n, (k, t) in enumerate(SECTIONS, 1):
-        (OUT / f"sec{n}.svg").write_text(section(n, k, t), encoding="utf-8")
+    for n, t in enumerate(SECTIONS, 1):
+        (OUT / f"sec{n}.svg").write_text(section(n, t), encoding="utf-8")
     print(f"wrote banner + {len(SECTIONS)} sections -> {OUT}")
