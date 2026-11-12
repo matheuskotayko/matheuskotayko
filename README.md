@@ -1,6 +1,7 @@
 <p align="center"><img src="assets/banner.svg" alt="Matheus Fleck — backend, AI systems and security. Blue ink-wash mountains, a brush slash and an ensō circle." width="100%"></p>
 
 <p align="center">
+  Santa Maria, Brazil · Internet Systems student at UFSM<br>
   <a href="https://www.linkedin.com/in/matheusgmello/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-matheusgmello-111111?style=flat-square&logo=linkedin&logoColor=white"></a>
   <a href="https://matheusgmello.vercel.app/"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-matheusgmello.vercel.app-111111?style=flat-square&logo=vercel&logoColor=white"></a>
 </p>
