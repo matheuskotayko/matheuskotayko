@@ -1,6 +1,14 @@
-Backend-focused software developer building AI-powered applications and security-conscious systems.
+<h1 align="center">Matheus Kotayko</h1>
 
-I work primarily with Java, Spring Boot, Python, PostgreSQL, and cloud-native tools. My current interests are applied AI, RAG pipelines, agentic workflows, backend architecture, and cybersecurity fundamentals.
+<p align="center">
+  Backend developer · AI-powered applications · security-conscious systems<br>
+  <a href="https://www.linkedin.com/in/matheusgmello/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-matheusgmello-111111?style=flat-square&logo=linkedin&logoColor=white"></a>
+  <a href="https://matheusgmello.vercel.app/"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-matheusgmello.vercel.app-111111?style=flat-square&logo=vercel&logoColor=white"></a>
+</p>
+
+## About
+
+I build backends that put LLMs into real products without losing sight of security. Java and Spring Boot are my daily tools, Python is where I prototype RAG pipelines and agents, and PostgreSQL holds it all together.
 
 ## Current Focus
 
@@ -8,15 +16,18 @@ I work primarily with Java, Spring Boot, Python, PostgreSQL, and cloud-native to
 - Exploring AI agents, RAG architectures, and LLM integration patterns
 - Strengthening secure software design, cloud deployment, and cybersecurity practices
 
-## Core Stack
+## Projects
 
-**Backend:** Java, Spring Boot, Python, Node.js  
-**AI:** RAG, AI Agents, LangChain, LlamaIndex, Harness  
-**Cloud & DevOps:** Docker, Kubernetes, AWS, GCP, Linux, MinIO  
+| | Project | What it does | Stack |
+|:-:|---|---|---|
+| ◆ | **Agricultural operations platform** | Internal platform for agricultural operations (code is not public) | Java · Spring Boot · PostgreSQL |
+<!-- TODO: add public projects here: | ○ | [**Name**](repo-url) | one-line description | stack | -->
 
-[![My Skills](https://skillicons.dev/icons?i=java,spring,python,nodejs,docker,kubernetes,postgres,aws,gcp,linux,git,grafana,prometheus)](https://skillicons.dev)
+*◆ employer/private · ○ public*
 
+## Stack
 
-## Connect
+![Java](https://img.shields.io/badge/-Java-111111?style=flat-square&logo=openjdk&logoColor=white) ![Spring Boot](https://img.shields.io/badge/-Spring_Boot-111111?style=flat-square&logo=springboot&logoColor=white) ![Python](https://img.shields.io/badge/-Python-111111?style=flat-square&logo=python&logoColor=white) ![Node.js](https://img.shields.io/badge/-Node.js-111111?style=flat-square&logo=nodedotjs&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-111111?style=flat-square&logo=postgresql&logoColor=white) ![LangChain](https://img.shields.io/badge/-LangChain-111111?style=flat-square&logo=langchain&logoColor=white) ![Docker](https://img.shields.io/badge/-Docker-111111?style=flat-square&logo=docker&logoColor=white) ![Kubernetes](https://img.shields.io/badge/-Kubernetes-111111?style=flat-square&logo=kubernetes&logoColor=white) ![AWS](https://img.shields.io/badge/-AWS-111111?style=flat-square&logo=amazonwebservices&logoColor=white) ![GCP](https://img.shields.io/badge/-GCP-111111?style=flat-square&logo=googlecloud&logoColor=white) ![Linux](https://img.shields.io/badge/-Linux-111111?style=flat-square&logo=linux&logoColor=white) ![Grafana](https://img.shields.io/badge/-Grafana-111111?style=flat-square&logo=grafana&logoColor=white) ![Prometheus](https://img.shields.io/badge/-Prometheus-111111?style=flat-square&logo=prometheus&logoColor=white)
 
-[LinkedIn](https://www.linkedin.com/in/matheusgmello/) · [Portfolio](https://matheusgmello.vercel.app/)
+**AI:** RAG · AI Agents · LangChain · LlamaIndex · Harness  
+**Infra:** MinIO · Kubernetes · AWS · GCP
