@@ -28,10 +28,16 @@ Today I lead technical decisions for an internal agricultural operations platfor
 
 | | Project | What it does | Stack |
 |:-:|---|---|---|
-| ◆ | **Agricultural operations platform** | Internal platform for agricultural operations (code is not public) | Java · Spring Boot · PostgreSQL |
-<!-- TODO: add public projects here: | ○ | [**Name**](repo-url) | one-line description | stack | -->
+| ◆ | **Agricultural operations platform** | Internal platform for agricultural operations, where I lead technical decisions | Java · Spring Boot · PostgreSQL |
+| ● | [**Gestão de Riscos UFSM**](https://github.com/matheuskotayko/gestao-riscos-ufsm) · [app](https://matheuskotayko.github.io/gestao-riscos-ufsm/) | Risk management system used by the Federal University of Santa Maria | Django · React · Vite · PostgreSQL · Docker |
+| ○ | [**UniBot**](https://github.com/matheuskotayko/unibot) | Academic virtual assistant for UFSM: chatbot agent with RAG over university content | Python · Node.js · Dialogflow · Gemini |
+| ○ | [**UFSM Editais Scrapper**](https://github.com/matheuskotayko/ufsm-editais-scrapper) | Scraper for UFSM grants and calls, with web UI, local chatbot and scheduled collection | FastAPI · SQLAlchemy · BeautifulSoup · PostgreSQL · Docker |
+| ○ | [**PDV Ice Control**](https://github.com/matheuskotayko/pdv-ice-control) | Point of sale for ice cream shops: sales, inventory, customer tabs and reports | Spring Boot · React · PostgreSQL · JWT · Docker |
+| ○ | [**Gestão de Vagas**](https://github.com/matheuskotayko/gestao-vagas) | LinkedIn-inspired jobs platform with metrics, dashboards and quality gates | Spring Boot · Angular · PostgreSQL · Prometheus · Grafana · SonarQube |
+| ○ | [**Clinical Agenda**](https://github.com/matheuskotayko/ClinicalAgenda) | Clinic appointment scheduling built on clean architecture | Spring Boot · Angular · PostgreSQL · JWT · Flyway |
+| ○ | [**Kafka Service**](https://github.com/matheuskotayko/kafka-service) | Payment and anti-fraud microservices communicating through Kafka | Spring Boot · Kafka · Docker |
 
-*◆ employer/private · ○ public*
+*◆ work (code is not public) · ● live · ○ public*
 
 <img src="assets/sec4.svg" alt="Chapter 4: Arsenal" width="100%">
 
