@@ -64,9 +64,9 @@ head = "".join(
     for k, (v, lbl) in enumerate(stats))
 
 svg = f"""<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-label="Activity: {sum(active)} active days in the last year, longest streak {best}, {roll[-1]} of the last 30 days active"><title>GitHub activity, last 12 months</title>
-<defs><radialGradient id="light" cx=".1" cy="0" r="1"><stop offset="0" stop-color="#2f6fd6" stop-opacity=".35"/><stop offset=".6" stop-color="#2f6fd6" stop-opacity="0"/></radialGradient>
+<defs><radialGradient id="light" cx=".1" cy="0" r="1"><stop offset="0" stop-color="#4a8cf0" stop-opacity=".5"/><stop offset=".8" stop-color="#4a8cf0" stop-opacity="0"/></radialGradient>
 <linearGradient id="area" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2f6fd6" stop-opacity=".45"/><stop offset="1" stop-color="#2f6fd6" stop-opacity="0"/></linearGradient></defs>
-<rect width="{W}" height="{H}" rx="6" fill="#03070f"/><rect width="{W}" height="{H}" rx="6" fill="url(#light)"/>
+<rect width="{W}" height="{H}" rx="6" fill="#13264a"/><rect width="{W}" height="{H}" rx="6" fill="url(#light)"/>
 <style>
 :root{{--fg:#e8f0ff;--mut:#7f9cc9;--line:#9cc4ff}}
 .v{{font:900 24px Georgia,'Times New Roman',serif;fill:var(--fg)}}

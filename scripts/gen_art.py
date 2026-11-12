@@ -8,7 +8,7 @@ import random
 
 OUT = pathlib.Path(__file__).resolve().parent.parent / "assets"
 
-VOID, INK, BLUE, GLOW, PAPER = "#03070f", "#0a1426", "#2f6fd6", "#9cc4ff", "#e8f0ff"
+VOID, INK, BLUE, GLOW, PAPER = "#13264a", "#1f3a6b", "#4a8cf0", "#b8d6ff", "#f2f7ff"
 SERIF = "'Noto Serif CJK JP','Yu Mincho','Hiragino Mincho ProN',Georgia,'Times New Roman',serif"
 MONO = "SFMono-Regular,Consolas,'Liberation Mono',monospace"
 
@@ -32,9 +32,9 @@ DEFS = f"""<defs>
   <feColorMatrix values="0 0 0 0 .6  0 0 0 0 .75  0 0 0 0 1  0 0 0 .07 0"/>
 </filter>
 <radialGradient id="light" cx=".18" cy=".05" r=".9">
-  <stop offset="0" stop-color="{GLOW}" stop-opacity=".55"/>
-  <stop offset=".25" stop-color="{BLUE}" stop-opacity=".28"/>
-  <stop offset=".6" stop-color="{BLUE}" stop-opacity="0"/>
+  <stop offset="0" stop-color="{GLOW}" stop-opacity=".75"/>
+  <stop offset=".25" stop-color="{BLUE}" stop-opacity=".45"/>
+  <stop offset=".8" stop-color="{BLUE}" stop-opacity="0"/>
 </radialGradient>
 <linearGradient id="slash" x1="0" y1="0" x2="1" y2="0">
   <stop offset="0" stop-color="{PAPER}" stop-opacity="0"/>
